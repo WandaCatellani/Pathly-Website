@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+html {
+  /* 1 rem = 10px */
+  font-size: 62, 5%;
+}
+
+
+/* Header */
+
+.nav{
+    padding: 1rem;
+}
+.bg-header{
+    background-color: #131320;
+}
+
+.logo-pathly{
+    width: 60%;
+}
+
+.nav .menu .lista a{
+    color: #FFF;
+    font-family: 'Montserrat', sans-serif;
+    padding-right: 2rem;
+}
+
+.nav .menu .lista .btn-dashboard{
+    background-color: #0CA2EF;
+    border-radius: 1.5rem;
+    padding-left: 2rem;
+}
