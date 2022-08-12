@@ -1,14 +1,7 @@
-<<<<<<< HEAD
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-=======
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
->>>>>>> d15ad6edf884a8965ff68340bb7cdd56660aa012
 }
 
 /* Google Fonts */
@@ -18,8 +11,6 @@ html {
   /* 1 rem = 10px */
   font-size: 62, 5%;
 }
-
-<<<<<<< HEAD
 
 /* Header */
 
@@ -45,9 +36,9 @@ html {
     border-radius: 1.5rem;
     padding-left: 2rem;
 }
+/* Fin header */
 
-
-=======
+/* Footer */
 .footer {
   background-color: #131320;
   display: flex;
@@ -75,4 +66,5 @@ html {
   margin: 8rem auto 0;
   border-bottom: 1px solid #fff;
 }
->>>>>>> d15ad6edf884a8965ff68340bb7cdd56660aa012
+/* Fin footer */
+
