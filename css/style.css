@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+html {
+  /* 1 rem = 10px */
+  font-size: 62, 5%;
+}
+
+.footer {
+  background-color: #131320;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8rem 0;
+}
+
+.footer-container {
+  color: #fff;
+}
+
+.footer-container .copy {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.footer-container .list .link {
+  color: #0ca2ef;
+  font-weight: bold;
+}
+
+.footer-container .hr {
+  margin: 8rem auto 0;
+  border-bottom: 1px solid #fff;
+}
