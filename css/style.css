@@ -1,7 +1,14 @@
+<<<<<<< HEAD
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+=======
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+>>>>>>> d15ad6edf884a8965ff68340bb7cdd56660aa012
 }
 
 /* Google Fonts */
@@ -12,6 +19,7 @@ html {
   font-size: 62, 5%;
 }
 
+<<<<<<< HEAD
 
 /* Header */
 
@@ -39,3 +47,32 @@ html {
 }
 
 
+=======
+.footer {
+  background-color: #131320;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8rem 0;
+}
+
+.footer-container {
+  color: #fff;
+}
+
+.footer-container .copy {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.footer-container .list .link {
+  color: #0ca2ef;
+  font-weight: bold;
+}
+
+.footer-container .hr {
+  margin: 8rem auto 0;
+  border-bottom: 1px solid #fff;
+}
+>>>>>>> d15ad6edf884a8965ff68340bb7cdd56660aa012
