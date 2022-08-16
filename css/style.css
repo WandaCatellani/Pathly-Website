@@ -34,7 +34,8 @@ body{
 .nav .menu .lista a{
     color: #FFF;
     font-family: 'Montserrat', sans-serif;
-    padding-right: 2rem;
+    padding-right: 1.8rem;
+    font-weight: bold;
 }
 
 .nav .menu .lista .btn-dashboard{
@@ -117,4 +118,6 @@ body{
 
 /* Fin section product */
 
-
+.active-section{
+  color:#69CF9E !important;
+}
