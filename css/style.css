@@ -12,14 +12,20 @@ html {
   font-size: 62, 5%;
 }
 
+/* Body */
+body{
+  background-image: linear-gradient( #131320, #0ca2ef);
+}
+/* Fin body */
+
 /* Header */
 
 .nav{
     padding: 1rem;
 }
-.bg-header{
+/* .bg-header{
     background-color: #131320;
-} 
+}  */
 
 .logo-pathly{
     width: 60%;
@@ -67,4 +73,40 @@ html {
   border-bottom: 1px solid #fff;
 }
 /* Fin footer */
+
+/* Section product */
+.p-product{
+  color: #FFF;
+  font-size: 4rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+.h2-product{
+  color: #0CA2EF;
+  font-size: 1.2rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+.p-light-product{
+  color: #FFF;
+  font-size: 1rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.flex-container{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.flex-container-start{
+  display: flex;
+  justify-content: flex-start;
+}
+
+
+/* Fin section product */
+
 
