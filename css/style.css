@@ -106,6 +106,14 @@ body{
   justify-content: flex-start;
 }
 
+.product-3-absolute{
+  position: absolute;
+  right: 0;
+}
+
+.product-3-relative{
+  position: relative;
+}
 
 /* Fin section product */
 
