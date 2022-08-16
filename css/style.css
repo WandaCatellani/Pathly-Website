@@ -13,34 +13,34 @@ html {
 }
 
 /* Body */
-body{
-  background-image: linear-gradient( #131320, #0ca2ef);
+body {
+  background-image: linear-gradient(#131320, #0ca2ef);
 }
 /* Fin body */
 
 /* Header */
 
-.nav{
-    padding: 1rem;
+.nav {
+  padding: 1rem;
 }
 /* .bg-header{
     background-color: #131320;
 }  */
 
-.logo-pathly{
-    width: 60%;
+.logo-pathly {
+  width: 60%;
 }
 
-.nav .menu .lista a{
-    color: #FFF;
-    font-family: 'Montserrat', sans-serif;
-    padding-right: 2rem;
+.nav .menu .lista a {
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  padding-right: 2rem;
 }
 
-.nav .menu .lista .btn-dashboard{
-    background-color: #0CA2EF;
-    border-radius: 1.5rem;
-    padding-left: 2rem;
+.nav .menu .lista .btn-dashboard {
+  background-color: #0ca2ef;
+  border-radius: 1.5rem;
+  padding-left: 2rem;
 }
 /* Fin header */
 
@@ -75,46 +75,45 @@ body{
 /* Fin footer */
 
 /* Section product */
-.p-product{
-  color: #FFF;
+.p-product {
+  color: #fff;
   font-size: 4rem;
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
   line-height: 1.2;
 }
 
-.h2-product{
-  color: #0CA2EF;
+.h2-product {
+  color: #0ca2ef;
   font-size: 1.2rem;
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
 }
 
-.p-light-product{
-  color: #FFF;
+.p-light-product {
+  color: #fff;
   font-size: 1rem;
   font-family: 'Montserrat', sans-serif;
 }
 
-.flex-container{
+.flex-container {
   display: flex;
   justify-content: flex-end;
 }
 
-.flex-container-start{
+.flex-container-start {
   display: flex;
   justify-content: flex-start;
 }
 
-.product-3-absolute{
-  position: absolute;
-  right: 0;
-}
-
-.product-3-relative{
+.product-3-relative {
   position: relative;
 }
 
+.product-3-absolute {
+  position: absolute;
+  right: 0;
+  left: 55rem;
+}
+
 /* Fin section product */
-
-
