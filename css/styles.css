@@ -116,4 +116,8 @@ body {
   left: 55rem;
 }
 
+.contenedor {
+  width: 90%;
+  margin: 0 0 0 auto;
+}
 /* Fin section product */
