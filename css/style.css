@@ -1,7 +1,7 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 /* Google Fonts */
@@ -11,7 +11,6 @@ html {
   /* 1 rem = 10px */
   font-size: 62, 5%;
 }
-
 
 /* Header */
 
@@ -37,5 +36,35 @@ html {
     border-radius: 1.5rem;
     padding-left: 2rem;
 }
+/* Fin header */
 
+/* Footer */
+.footer {
+  background-color: #131320;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8rem 0;
+}
+
+.footer-container {
+  color: #fff;
+}
+
+.footer-container .copy {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.footer-container .list .link {
+  color: #0ca2ef;
+  font-weight: bold;
+}
+
+.footer-container .hr {
+  margin: 8rem auto 0;
+  border-bottom: 1px solid #fff;
+}
+/* Fin footer */
 
