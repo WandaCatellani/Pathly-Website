@@ -31,18 +31,15 @@ body {
   width: 60%;
 }
 
-<<<<<<< HEAD
-.nav .menu .lista a {
-  color: #fff;
-  font-family: 'Montserrat', sans-serif;
-  padding-right: 2rem;
-=======
 .nav .menu .lista a{
     color: #FFF;
     font-family: 'Montserrat', sans-serif;
     padding-right: 1.8rem;
     font-weight: bold;
->>>>>>> sofiDev
+}
+
+.active-section{
+  color:#69CF9E !important;
 }
 
 .nav .menu .lista .btn-dashboard {
@@ -125,10 +122,7 @@ body {
 }
 
 /* Fin section product */
-<<<<<<< HEAD
-=======
 
-.active-section{
-  color:#69CF9E !important;
-}
->>>>>>> sofiDev
+
+
+
