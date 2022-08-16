@@ -111,20 +111,20 @@ body {
   justify-content: flex-start;
 }
 
-.product-3-relative {
+.contenedor-3 {
   position: relative;
+  width: 80%;
+  margin-left: auto;
+  margin-right: 0;
+  /* height: 100%; */
 }
 
-.product-3-absolute {
+.contenedor-3 .img-product-3 {
   position: absolute;
-  right: 0;
-  left: 55rem;
+  top: 0;
+  left: 690px;
 }
 
-.contenedor {
-  width: 90%;
-  margin: 0 0 0 auto;
-}
 /* Fin section product */
 
 
