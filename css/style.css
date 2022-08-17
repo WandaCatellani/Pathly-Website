@@ -129,3 +129,32 @@ html {
 }
 
 /* Fin section product */
+
+/* Partners */
+.body-partner {
+  background-image: url('../img/PART.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+}
+
+.bg-section {
+  height: 100%;
+  padding-top: 5rem;
+}
+
+.partner .list {
+  color: #fff;
+}
+
+.btn-sign-up {
+  background-color: #69cf9e;
+  border-radius: 1.5rem;
+  padding-left: 2rem;
+  border: none;
+}
+
+.btn-sign-up:hover {
+  background-color: #69cf9e;
+}
