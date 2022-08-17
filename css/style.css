@@ -13,7 +13,7 @@ html {
 }
 
 /* Body */
-body {
+.body-products {
   /* background-image: linear-gradient(#131320, #0ca2ef); */
   background-image: url(../img/PRODUCT.png);
   background-size: cover;
