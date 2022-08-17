@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body class="body-partner">
+<body class="contact">
     <!-- Header -->
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark nav">
@@ -45,25 +45,51 @@
         </nav>
     </header>
 
-    <section class="container contact">
+    <section class="container">
         <form class="form" action="#">
-            <div class="col mb-3">
-                <input type="text" class="form-control" placeholder="Nombre" aria-label="Nombre">
+            <div class="row">
+                <div class="col-12 mt-5 mb-5 text-center">
+                    <p class="p-product">Contact us</p>
+                    <h2 class="h2-product">We would love to hear from you!</h2>
+                </div>
             </div>
 
-            <div class="col mb-3">
-                <input type="text" class="form-control" placeholder="Apellido" aria-label="Apellido">
+            <div class="row mb-3 fila">
+                <div class="col-12 col-lg-6 pb-3">
+                    <label class='col-12 title'>First name</label>
+                    <input id='nombres' class='col-12 input-form' type='text' name='' value='' required='' />
+                </div>
+
+                <div class="col-12 col-lg-6 pb-3 ">
+                    <label class='col-12 title'>Last name</label>
+                    <input id='apellidos' class='col-12 input-form' type='text' name='' value='' required='' />
+                </div>
             </div>
 
-            <div class="col mb-3">
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Mail">
+            <div class="row mb-3 fila">
+                <div class="col-12 pb-3">
+                    <label class='col-12 title'>Email</label>
+                    <input id='correo' class='col-12 input-form' type='email' name='' value='' required='' />
+                </div>
             </div>
 
-            <div class="col mb-3">
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            <div class="row mb-3 fila">
+                <div class="col-12 pb-3">
+                    <label class='col-12 title'>Phone number</label>
+                    <input id='correo' class='col-12 input-form' type='text' name='' value='' required='' />
+                </div>
             </div>
 
-            <button type="submit" class="btn btn-primary">Enviar</button>
+            <div class='row mb-3 fila'>
+                <div class="col-12 pb-3">
+                    <label class='col-12 title'>Message</label>
+                    <textarea id='' name='' class="col-12 mt-2 input-form textarea" id="" rows="6"></textarea>
+                </div>
+            </div>
+
+            <div class="d-grid gap-2 col-12 mt-4">
+                <input type="submit" name='' value='send message' class="btn-form">
+            </div>
         </form>
     </section>
 

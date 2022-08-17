@@ -162,11 +162,50 @@ html {
 /* Contact */
 
 .contact {
+  /* background-image: url(../img/CONTACT.png); */
+  background: rgb(241, 192, 192);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
   height: 100vh;
+  padding-bottom: 5rem;
 }
 
 .form {
   height: 100vh;
-  width: 70%;
+  width: 50%;
   margin: 0 auto;
+  color: #fff;
+}
+
+.fila .title {
+  text-align: justify;
+}
+
+.fila .input-form {
+  border: none;
+  border-radius: 0.5rem;
+  color: #fff;
+  padding: 0.4rem;
+}
+
+.fila .input-form:focus {
+  outline: none;
+  border: none;
+}
+
+.fila .textarea {
+  resize: none;
+}
+
+.btn-form {
+  background-color: #0ca2ef;
+  border-radius: 1.5rem;
+  padding: 0.5rem;
+  border: none;
+  color: #fff;
+}
+
+.btn-form-up:hover {
+  background-color: #0ca2ef;
 }
