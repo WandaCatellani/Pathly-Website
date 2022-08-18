@@ -162,13 +162,12 @@ html {
 /* Contact */
 
 .contact {
-  /* background-image: url(../img/CONTACT.png); */
-  background: rgb(241, 192, 192);
+  /* background: rgb(241, 192, 192); */
+  background-image: url(../img/CONTACT.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
   height: 100vh;
-  padding-bottom: 5rem;
 }
 
 .form {
