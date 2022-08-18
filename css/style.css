@@ -26,9 +26,9 @@ html {
   padding: 1rem;
 }
 
-/* .bg-header{
-    background-color: #131320;
-}  */
+.bg-header {
+  background-color: #131320;
+}
 
 .logo-pathly {
   width: 60%;
@@ -167,7 +167,7 @@ html {
 /* Contact */
 
 .contact {
-  background-image: url(../img/CONTACT.png);
+  background-image: url('../img/CONTACT.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
