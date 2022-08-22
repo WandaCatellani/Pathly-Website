@@ -23,6 +23,12 @@ html {
   background-size: cover;
   background-repeat: no-repeat;
 }
+
+.body-index {
+  background-image: url(../img/prodcut\ backround.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 /* Fin body */
 
 /* Header */
@@ -168,6 +174,30 @@ html {
 .btn-sign-up:hover {
   background-color: #69cf9e;
 }
+
+/* buttom border index */
+
+.btn-sign-up-border {
+  border:solid 2px #69cf9e;
+  border-radius: 1.5rem;
+  background-color: transparent;
+}
+
+.btn-sign-up-border-none {
+  border-radius: 1.5rem;
+  background-color: #69cf9e;
+  border: none;
+}
+
+.btn-sign-up-border-none:hover {
+  background-color: #69cf9e;
+}
+
+.btn-sign-up-border:hover {
+  background-color: #69cf9e;
+  border: solid 2px #69cf9e;
+}
+/* buttom border index */
 
 /* Contact */
 
