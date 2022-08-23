@@ -4,7 +4,8 @@
   box-sizing: border-box;
 }
 
-/* Google Fonts */
+/* Google Fonts 
+-------------------------------------------------- */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 
 html {
@@ -17,7 +18,8 @@ html {
   align-items: center;
 }
 
-/* Body */
+/* Body 
+-------------------------------------------------- */
 .body-products {
   background-image: url(../img/PRODUCT.png);
   background-size: cover;
@@ -29,10 +31,9 @@ html {
   background-size: cover;
   background-repeat: no-repeat;
 }
-/* Fin body */
 
-/* Header */
-
+/* Header
+-------------------------------------------------- */
 .nav {
   padding: 1rem;
 }
@@ -66,9 +67,9 @@ html {
   font-weight: bold;
   display: inline-block;
 }
-/* Fin header */
 
-/* Footer */
+/* Footer
+-------------------------------------------------- */
 .footer {
   background-color: #131320;
   display: flex;
@@ -96,9 +97,9 @@ html {
   margin: 8rem auto 0;
   border-bottom: 1px solid #fff;
 }
-/* Fin footer */
 
-/* Section product */
+/* Product 
+-------------------------------------------------- */
 .p-product {
   color: #fff;
   font-size: 4rem;
@@ -118,6 +119,41 @@ html {
   color: #fff;
   font-size: 1rem;
   font-family: 'Montserrat', sans-serif;
+}
+
+.p-ancho {
+  width: 65%;
+  margin: 0 auto;
+}
+
+.secureCustomer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.texPathly {
+  width: 50%;
+  flex-direction: column;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 5rem 0 40rem;
+}
+
+.imgPathly {
+  width: 50%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.imgPathly img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
 }
 
 .flex-container {
@@ -144,9 +180,8 @@ html {
   left: 690px;
 }
 
-/* Fin section product */
-
-/* Partners */
+/* Partners
+-------------------------------------------------- */
 .body-partner {
   background-image: url('../img/PART.png');
   background-repeat: no-repeat;
@@ -175,8 +210,8 @@ html {
   background-color: #69cf9e;
 }
 
-/* buttom border index */
-
+/* Buttom border index
+-------------------------------------------------- */
 .btn-sign-up-border {
   border: solid 2px #69cf9e;
   border-radius: 1.5rem;
@@ -197,10 +232,9 @@ html {
   background-color: #69cf9e;
   border: solid 2px #69cf9e;
 }
-/* buttom border index */
 
-/* Contact */
-
+/* Contact 
+-------------------------------------------------- */
 .contact {
   background-image: url('../img/CONTACT.png');
   background-size: cover;
@@ -247,6 +281,13 @@ html {
   background-color: #0ca2ef;
 }
 
+/* Dispositivos medianos (tabletas, 768px y más)
+-------------------------------------------------- */
+@media screen and (min-width: 768px) {
+}
+
+/* Dispositivos pequeños (teléfonos horizontales, 480px y más)
+-------------------------------------------------- */
 @media screen and (max-width: 600px) {
   .p-product {
     font-size: 2.5rem;
@@ -265,27 +306,4 @@ html {
     display: flex;
     justify-content: center;
   }
-}
-
-.secureCustomer {
-  max-width: 100%;
-  display: flex;
-  justify-content: center;
-  flex-flow: row wrap;
-}
-
-.texPathly {
-  width: 50%;
-  flex-direction: column;
-  margin: 0 0 0 auto;
-  display: flex;
-  align-items: flex-start;
-  justify-content: center;
-  padding-right: 10rem;
-}
-
-.imgPathly {
-  display: flex;
-  align-items: flex-end;
-  justify-content: flex-end;
 }
