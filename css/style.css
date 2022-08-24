@@ -20,6 +20,10 @@ html {
 
 /* Body 
 -------------------------------------------------- */
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
 .body-index {
   background-image: url('../img/prodcut\ backround.png');
   background-repeat: no-repeat;
@@ -65,7 +69,6 @@ html {
 
 .nav .menu .lista a {
   color: #fff;
-  font-family: 'Montserrat', sans-serif;
   padding-right: 1.8rem;
   font-weight: bold;
 }
@@ -79,7 +82,6 @@ html {
   border-radius: 1.5rem;
   padding-left: 2rem;
   color: #fff;
-  font-family: 'Montserrat', sans-serif;
   padding-right: 1.8rem;
   font-weight: bold;
   display: inline-block;
@@ -119,8 +121,7 @@ html {
 -------------------------------------------------- */
 .p-product {
   color: #fff;
-  font-size: 4rem;
-  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
   font-weight: bold;
   line-height: 1.2;
 }
@@ -128,18 +129,16 @@ html {
 .h2-product {
   color: #0ca2ef;
   font-size: 1.2rem;
-  font-family: 'Montserrat', sans-serif;
   font-weight: bold;
 }
 
 .p-light-product {
   color: #fff;
   font-size: 1rem;
-  font-family: 'Montserrat', sans-serif;
 }
 
 .p-ancho {
-  width: 65%;
+  width: 52%;
   margin: 0 auto;
 }
 
@@ -286,6 +285,15 @@ html {
 
 .btn-form-up:hover {
   background-color: #0ca2ef;
+}
+
+.enlace-contact-us{
+  text-decoration: none;
+  color: #fff;
+}
+
+.enlace-contact-us:hover{
+  color: #fff;
 }
 
 @media screen and (max-width: 1455px) {
