@@ -25,7 +25,6 @@ html {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  height: 100vh;
 }
 
 .body-products {
@@ -158,7 +157,7 @@ html {
   display: flex;
   align-items: flex-start;
   justify-content: center;
-  padding: 0 5rem 0 40rem;
+  padding: 0 5rem 0 20rem;
 }
 
 .imgPathly {
@@ -241,6 +240,11 @@ html {
 .btn-sign-up-border:hover {
   background-color: #69cf9e;
   border: solid 2px #69cf9e;
+}
+
+.btn-sign-up-border:focus {
+  background-color: #69cf9e;
+  outline: solid 2px #69cf9e;
 }
 
 /* Contact 
