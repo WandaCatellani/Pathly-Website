@@ -20,16 +20,34 @@ html {
 
 /* Body 
 -------------------------------------------------- */
-.body-products {
-  background-image: url(../img/PRODUCT.png);
-  background-size: cover;
+.body-index {
+  background-image: url('../img/prodcut\ backround.png');
   background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
 }
 
-.body-index {
-  background-image: url(../img/prodcut\ backround.png);
+.body-products {
+  background-image: url('../img/PRODUCT.png');
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.body-partner {
+  background-image: url('../img/PART.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+}
+
+.body-contact {
+  background-image: url('../img/CONTACT.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 /* Header
@@ -128,10 +146,10 @@ html {
 
 .secureCustomer {
   width: 100%;
-  display: flex;
+  display: flex !important;
   justify-content: center;
   align-items: center;
-  flex-flow: row wrap;
+  flex-flow: row nowrap;
 }
 
 .texPathly {
@@ -182,16 +200,8 @@ html {
 
 /* Partners
 -------------------------------------------------- */
-.body-partner {
-  background-image: url('../img/PART.png');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-  height: 100vh;
-}
-
 .bg-section {
-  height: 100%;
+  /* height: 100%; */
   padding-top: 5rem;
 }
 
@@ -235,13 +245,6 @@ html {
 
 /* Contact 
 -------------------------------------------------- */
-.contact {
-  background-image: url('../img/CONTACT.png');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-}
-
 .form {
   height: 100vh;
   width: 50%;
@@ -281,14 +284,137 @@ html {
   background-color: #0ca2ef;
 }
 
-/* Dispositivos medianos (tabletas, 768px y más)
--------------------------------------------------- */
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 1455px) {
+  .texPathly {
+    padding: 0 2rem 0 5.5rem;
+  }
 }
 
-/* Dispositivos pequeños (teléfonos horizontales, 480px y más)
+@media screen and (max-width: 1405px) {
+  .texPathly {
+    padding: 0 2rem 0 3.5rem;
+  }
+}
+
+/* Dispositivos muy grandes 
 -------------------------------------------------- */
-@media screen and (max-width: 600px) {
+
+@media screen and (max-width: 1399px) {
+  .texPathly {
+    padding: 0 2rem 0 8rem;
+  }
+}
+
+@media screen and (max-width: 1350px) {
+  .texPathly {
+    padding: 0 2rem 0 7rem;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .texPathly {
+    padding: 0 2rem 0 5.5em;
+  }
+}
+
+@media screen and (max-width: 1240px) {
+  .texPathly {
+    padding: 0 2rem 0 3.5em;
+  }
+}
+
+/* Dispositivos grandes 
+-------------------------------------------------- */
+
+@media screen and (max-width: 1200px) {
+  .texPathly {
+    padding: 0 2rem 0 2.5em;
+  }
+}
+
+@media screen and (max-width: 1198px) {
+  .texPathly {
+    padding: 0 2rem 0 7.5em;
+  }
+}
+
+@media screen and (max-width: 1190px) {
+  .texPathly {
+    padding: 0 2rem 0 6.4em;
+  }
+}
+
+@media screen and (max-width: 1160px) {
+  .texPathly {
+    padding: 0 2rem 0 6em;
+  }
+}
+
+@media screen and (max-width: 1130px) {
+  .texPathly {
+    padding: 0 2rem 0 5rem;
+  }
+}
+
+@media screen and (max-width: 1090px) {
+  .texPathly {
+    padding: 0 2rem 0 4.5rem;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .texPathly {
+    padding: 0 2rem 0 3.5rem;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .texPathly {
+    padding: 0 2rem 0 2.5rem;
+  }
+}
+
+/* Dispositivos medianos (tabletas, 768px y más)
+-------------------------------------------------- */
+@media screen and (max-width: 991px) {
+  .texPathly {
+    padding: 0 2rem 0 8rem;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .texPathly {
+    padding: 0 2rem 0 6.5rem;
+  }
+}
+
+@media screen and (max-width: 892px) {
+  .texPathly {
+    padding: 0 2rem 0 5.2rem;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .texPathly {
+    padding: 0 2rem 0 4.5rem;
+  }
+}
+
+@media screen and (max-width: 840px) {
+  .texPathly {
+    padding: 0 2rem 0 3.4rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .texPathly {
+    padding: 0 2rem 0 3rem;
+  }
+}
+
+/* Dispositivos pequeños
+-------------------------------------------------- */
+@media screen and (max-width: 767px) {
   .p-product {
     font-size: 2.5rem;
   }
@@ -305,5 +431,9 @@ html {
   .flex-container-start {
     display: flex;
     justify-content: center;
+  }
+
+  .secureCustomer {
+    display: none !important;
   }
 }
