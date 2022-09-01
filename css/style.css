@@ -20,7 +20,7 @@ html {
 
 /* Body 
 -------------------------------------------------- */
-body{
+body {
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -43,7 +43,7 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  height: 100vh;
+  /* height: 100vh; */
 }
 
 .body-contact {
@@ -199,9 +199,9 @@ body{
 
 /* Partners
 -------------------------------------------------- */
-.bg-section-partners {
-  height: 100%; 
-  padding-top: 5rem;
+.partner {
+  height: 100%;
+  /* padding-top: 5rem; */
 }
 
 .partner .list {
@@ -247,7 +247,7 @@ body{
   outline: solid 2px #69cf9e;
 }
 
-.div-btn-index{
+.div-btn-index {
   width: 100%;
 }
 
@@ -292,12 +292,12 @@ body{
   background-color: #0ca2ef;
 }
 
-.enlace-contact-us{
+.enlace-contact-us {
   text-decoration: none;
   color: #fff;
 }
 
-.enlace-contact-us:hover{
+.enlace-contact-us:hover {
   color: #fff;
 }
 
