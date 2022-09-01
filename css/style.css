@@ -121,20 +121,20 @@ body{
 -------------------------------------------------- */
 .p-product {
   color: #fff;
-  font-size: 3rem;
+  font-size: 5.2rem;
   font-weight: bold;
   line-height: 1.2;
 }
 
 .h2-product {
   color: #0ca2ef;
-  font-size: 1.2rem;
+  font-size: 2rem;
   font-weight: bold;
 }
 
 .p-light-product {
   color: #fff;
-  font-size: 1rem;
+  font-size: 1.4rem;
 }
 
 .p-ancho {
@@ -174,7 +174,8 @@ body{
 
 .flex-container {
   display: flex;
-  justify-content: flex-end;
+  /* justify-content: flex-end; */
+  justify-content: center;
 }
 
 .flex-container-start {
@@ -198,10 +199,10 @@ body{
 
 /* Partners
 -------------------------------------------------- */
-.bg-section {
-  /* height: 100%; */
+/* .bg-section {
+  height: 100%; 
   padding-top: 5rem;
-}
+} */
 
 .partner .list {
   color: #fff;
