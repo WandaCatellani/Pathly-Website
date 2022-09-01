@@ -247,6 +247,10 @@ body{
   outline: solid 2px #69cf9e;
 }
 
+.div-btn-index{
+  width: 100%;
+}
+
 /* Contact 
 -------------------------------------------------- */
 .form {
